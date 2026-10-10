@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lp-light",
+    "page": "https://www.loreal-paris.com.hk/zh-hk/age-perfect/age-perfect-collagen-royal-light-cream-b-60ml",
+    "image": "https://www.loreal-paris.com.hk/-/media/project/loreal/brand-sites/oap/apac/hk/products/skin-care/face-care/age-perfect/age-perfect-collagen-royal-light-cream-b-60ml/aplightcreamjarshootingupdated.png",
+    "local": "/assets/lp-light.png",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "lp-rich",
+    "page": "https://www.loreal-paris.com.hk/zh-hk/age-perfect/age-perfect-collagen-royal-rich-cream-a-60ml",
+    "image": "https://www.loreal-paris.com.hk/-/media/project/loreal/brand-sites/oap/apac/hk/products/skin-care/face-care/age-perfect/age-perfect-collagen-royal-rich-cream-a-60ml/aprichcreamjarshooting.png",
+    "local": "/assets/lp-rich.png",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "lp-uv",
+    "page": "https://www.loreal-paris.com.hk/zh-hk/uv-perfect/uv/uv-perfect-broad-uv-sunscreen-city-resist-spf50-plus-pa-30ml",
+    "image": "https://www.loreal-paris.com.hk/-/media/project/loreal/brand-sites/oap/apac/hk/products/skin-care/face-care/uv-perfect/uv-perfect-broad-uv-sunscreen-city-resist-spf50-plus-pa-30ml/uv-ha-gel-2025-pack-reno-/uv-city-resist-2025-pack-reno.png",
+    "local": "/assets/lp-uv.png",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "fit-me",
+    "page": "https://www.maybelline.com.hk/zh-hk/all-products/face-makeup/foundation/fit-me-matte-poreless-foundation",
+    "image": "https://www.maybelline.com.hk/-/media/project/loreal/brand-sites/mny/apac/hk/homepage/product-transporter/70cfa708-0d8e-4f59-b55e-87d12339c3b4_sqv2.png",
+    "local": "/assets/fit-me.png",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "colour-riche",
+    "page": "https://www.lorealparisusa.com/makeup/lip-color/lipstick/colour-riche-lipcolour-montmartre",
+    "image": "https://www.lorealparisusa.com/-/media/project/loreal/brand-sites/oap/americas/us/products/makeup/lip-color/lipstick/colour-riche-lipcolour/atf-v2-2024/071249415757-t1-min.png",
+    "local": "/assets/colour-riche.png",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "lancome-lip",
+    "page": "https://zh.lancome-usa.com/makeup/lip-makeup/lipstick/labsolu-rouge-intimatte-soft-matte-lipstick/3614274334920.html",
+    "image": "https://zh.lancome-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lancome-us-master-catalog/default/pdp/00636-LAC/ALT0-3614274334920-BROWN_SANS_FILTRE-PACKSHOT.jpg",
+    "local": "/assets/lancome-lip.jpg",
+    "retrieved": "2026-10-03"
+  },
+  {
+    "id": "cerave-cleanser",
+    "page": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+    "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/cleansers/hydrating-facial-cleanser/photos/2022/700x700/cerave_daily_hydrating-cleanser_12oz_front-700x700-v2.jpg?rev=8dcf681b75c042deaaa0c6ea1581d4df",
+    "local": "/assets/cerave-cleanser.jpg",
+    "retrieved": "2026-10-03"
+  }
+]
