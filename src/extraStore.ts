@@ -1,0 +1,10 @@
+import {create} from 'zustand';
+import {persist,createJSONStorage} from 'zustand/middleware';
+import {openDB} from 'idb';
+export type BeautyLanguage={occasion:string;brightness:string;saturation:string;texture:string;reference:string;avoid:string;music:string;perfume:string};
+export const defaultLanguage:BeautyLanguage={occasion:'日常',brightness:'自然',saturation:'柔和',texture:'清透',reference:'',avoid:'',music:'轻柔钢琴',perfume:''};
+export type DayEvent={id:string;title:string;time:string;scene:string};
+type Extras={language:BeautyLanguage;events:DayEvent[];city:string;weather:string;weatherAt:string;haptic:boolean;notification:boolean;ring:string;theme:string;petAccessory:string;set:(p:Partial<Omit<Extras,'set'|'reset'>>)=>void;reset:()=>void};
+const initial={language:defaultLanguage,events:[] as DayEvent[],city:'',weather:'未查询天气',weatherAt:'',haptic:false,notification:false,ring:'轻铃',theme:'晨光',petAccessory:'无装饰'};
+const db=()=>openDB('beauty-alarm-extras',1,{upgrade(d){d.createObjectStore('settings');}});
+export const useExtras=create<Extras>()(persist(set=>({...initial,set:p=>set(p),reset:()=>set(initial)}),{name:'extras',storage:createJSONStorage(()=>({getItem:async k=>(await(await db()).get('settings',k))??null,setItem:async(k,v)=>{await(await db()).put('settings',v,k);},removeItem:async k=>{await(await db()).delete('settings',k);}}))}));

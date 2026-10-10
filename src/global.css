@@ -1,0 +1,21 @@
+:root{font-family:Inter,"Helvetica Neue","Microsoft YaHei",sans-serif;color:#242421;background:#f7f6f2;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;--paper:#f7f6f2;--surface:#fffefa;--ink:#242421;--muted:#68665e;--gold:#8a683c;--line:#e3e0d7;--sage:#788572;--rose:#a36965;--font-body:Inter,"Helvetica Neue","Microsoft YaHei",sans-serif;--font-display:Inter,"Helvetica Neue","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html,body{margin:0;min-width:320px;overflow-x:clip}body{font-size:14px}button,input,textarea,select{font:inherit}button,a,input,textarea,select{-webkit-tap-highlight-color:transparent}button,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}a{color:inherit;text-decoration:none}button{color:inherit}h1,h2,h3,p{margin:0}h1,h2,h3{font-weight:500;letter-spacing:-.035em;overflow-wrap:anywhere}p{line-height:1.85}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #7e5932;outline-offset:4px}input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:12px 14px;min-height:46px;color:var(--ink)}textarea{resize:vertical;line-height:1.8}input[type=checkbox],input[type=radio]{accent-color:var(--ink);width:18px;height:18px;flex-shrink:0}input[type=range]{width:100%;accent-color:var(--gold);min-height:30px}label{display:block}fieldset{padding:0;border:0;margin:24px 0}legend{margin-bottom:12px}small{line-height:1.7}::selection{background:#e6d2b3}html[data-large=true]{font-size:19px}html[data-large=true] body{font-size:17px}html[data-large=true] p,html[data-large=true] label,html[data-large=true] button{font-size:1rem}html[data-large=true] small{font-size:.85rem}dialog::backdrop{background:#24242166;backdrop-filter:blur(3px)}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+html[data-theme=花园]{--paper:#f0f3e9;--surface:#fcfff6;background:#f0f3e9}html[data-theme=暮色]{--paper:#f0e9eb;--surface:#fff9fb;background:#f0e9eb}
+/* Core content remains legible on small screens. */
+main p,main small,main label,main button,main input,main select{font-size:max(13px,1em)}main button,main a[role=button]{min-height:44px}main small{font-size:13px}main p{font-size:15px}main input[type=checkbox]{min-width:18px}
+
+main :is(p,label,input,select,textarea){font-size:15px!important}main :is(small,button,summary){font-size:13px!important}html[data-large=true] main :is(p,label,input,select,textarea,small,button,summary){font-size:19px!important}main a{min-height:44px}main .portrait-caption{font-size:13px}
+
+/* Flower Dew Manor visual system */
+:root{--paper:#f3f1e8;--surface:#fffdf6;--ink:#2f4035;--muted:#667067;--gold:#ad8548;--amber:#bc914e;--line:#d9ddd1;--sage:#789070;--moss:#697f61;--pine:#405d47;--rose:#c9817a;--dew:#82aaa7;--font-body:"Noto Sans SC","Microsoft YaHei","PingFang SC",sans-serif;--font-display:"Noto Serif SC","Songti SC",STSong,serif;color:#2f4035;background:#f3f1e8}
+html[data-theme=花园]{--paper:#eef3e8;--surface:#fffdf5;background:#eef3e8}html[data-theme=暮色]{--paper:#ece9e8;--surface:#fffaf6;background:#ece9e8}
+body{background:linear-gradient(180deg,#f4f1e7e8 0%,#eef1e7f4 44%,#f4efe5f8 100%),url('/assets/flower-dew-manor.png') center top/cover fixed no-repeat;color:var(--ink)}
+h1,h2,h3{font-family:var(--font-display)}
+input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select{border-color:#d8ddd0;background:#fffdf7;box-shadow:inset 0 1px #fff}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline-color:#5f785d}
+::selection{background:#dce7cf;color:#2d4937}
+*{scrollbar-width:thin;scrollbar-color:#9bac92 #edf0e6}
+button,input,textarea,select{transition:border-color .18s,background .18s,box-shadow .18s,transform .18s}
+input:not([type=checkbox]):not([type=radio]):not([type=range]):focus,textarea:focus,select:focus{border-color:#7e9878;box-shadow:0 0 0 4px #718b6c18;background:#fffef9}
+details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}
